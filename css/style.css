@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: roboto;
+
+}
+
+.navbar {
+    background-color: none;
+    position: absolute;
+    width: 100%;
+
+}
+
+.navbar-brand {
+    font-family: dancing script;
+    font-size: 40px;
+    color: #FFEB3B;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+    letter-spacing: 3px;
+
+}
+
+.nav-item {
+    padding: 10px;
+
+}
+
+.nav-item a:hover {
+    color: #FFEB3B;
+}
+
+.home {
+    background-image: url("../img/c-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(50, 50, 50, 1);
+    overflow: hidden;
+}
+
+.caption {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.caption h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.caption .btn-check {
+    background-color: none;
+    color: #FFEB3B;
+    border-color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    width: 50%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.btn-check:hover {
+    background-color: #FFEB3B;
+    color: #ffffff;
+    border: 1px solid #303F9F;
+}
+
+.caption span {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.project {
+    width: 100%;
+    height: 70vh;
+}
+
+.page-heading {
+    text-align: center;
+    font-family: lato;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #212121;
+    padding: 10px;
+    margin-top: 50px;
+    letter-spacing: 4px;
+
+
+}
+
+.page-heading h3 {
+    font-weight: 900;
+}
+
+.page-content {
+    margin-top: 50px;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    filter: brightness(80%);
+}
+
+.card p {
+    position: absolute;
+    color: #ffffff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: montserrat;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: none;
+    overflow: hidden;
+
+}
+
+
+.card:hover p {
+    display: block;
+
+}
+
+.card:hover img {
+    filter: brightness(30%);
+}
+
+.team {
+    width: 100%;
+    height: 70vh;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.page-content .carousel img {
+    width: 200px;
+    height: 200px;
+
+}
+
+
+.page-content .carousel {
+    text-align: center;
+}
+
+.page-content h5 {
+    font-family: montserrat;
+    margin-top: 25px;
+    color: #212121;
+}
+
+.activity {
+    width: 100%;
+    height: 40vh;
+}
+
+.progress-bar {
+    background-color: #FFC107;
+    color: #212121;
+}
+
+.contact {
+    height: 50vh;
+    width: 100%;
+    background-color: #212121;
+    padding: 10px;
+
+}
+
+.contact .page-heading {
+    color: #ffffff;
+}
+
+.btn-link {
+    padding: 15px;
+    background-color: #FFC107;
+    color: #ffffff;
+    font-family: montserrat;
+    letter-spacing: 3px;
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+.btn-link:hover {
+    color: #212121;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.medsos ul li a {
+
+    font-size: 20px;
+    color: #ffffff;
+    padding: 25px;
+    text-decoration: none;
+}
+
+
+.medsos li {
+    list-style: none;
+}
+
+.medsos {
+    margin-top: 25px;
+}
+
+.footer {
+    background-color: #212121;
+
+}
+
+.footer .page-heading h3 {
+    color: #ffffff;
+
+}
+
+.footer .page-heading a {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 25px;
+    text-decoration: none;
+    color: #ffffff;
+}
